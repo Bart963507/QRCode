@@ -9,12 +9,14 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    width: 100vh;
+    width: 100vw;
+    text-align: center;
+    
 }
 
 .box {
-    width: 30vh;
-    height: 50vh;
+    width: 350px;
+    height: 600px;
     background-color: hsl(0, 0%, 100%);
     position: absolute;
     top: 50%;
@@ -27,7 +29,6 @@ body {
     width: 90%;
     height: 50%;
     top:5%;
-    left:5%;
     position: relative;
     border-radius: 30px;
 }
